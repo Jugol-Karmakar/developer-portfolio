@@ -65,7 +65,7 @@ h1 {
 
 #wev-dev-ex {
   border-left: 6px solid;
-  border-image: linear-gradient(tomato, tomato);
+  border-image: linear-gradient(tomato, red);
   border-image-slice: 1;
 }
 
