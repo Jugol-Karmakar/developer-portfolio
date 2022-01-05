@@ -13,7 +13,7 @@ h1 {
 
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 .header1 {
@@ -51,6 +51,10 @@ h1 {
   background-position: left;
 }
 
+.expriance {
+  margin-left: 5%;
+}
+
 .expriance-item {
   width: 40%;
   margin-left: 5%;
@@ -59,6 +63,14 @@ h1 {
   box-shadow: 10px 10px 40px gray;
 }
 
+#wev-dev-ex {
+  border-left: 6px solid;
+  border-image: linear-gradient(tomato, tomato);
+  border-image-slice: 1;
+}
+
 #web-dev {
-  border-image: linear-gradient(red, blue) 27 / 35px;
+  border-left: 6px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
