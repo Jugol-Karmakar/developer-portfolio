@@ -45,9 +45,20 @@ h1 {
   background-position: right;
 }
 
+.expriance-area {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .expriance-item {
-  width: 80%;
-  box-shadow: 10px 10px 10px gray;
+  width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+
+#web-dev {
+  border-image: linear-gradient(red, blue) 27 / 35px;
 }
